@@ -1,8 +1,12 @@
 import './App.css';
+import './components/Navbar/index';
+import Navbar from './components/Navbar/index';
 
 function App() {
   return (
-    <h1>Olá catalogo</h1>
+    <>
+      <Navbar />
+    </>
   );
 }
 
