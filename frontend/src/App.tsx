@@ -1,11 +1,11 @@
+import './assets/styles/custom.scss';
 import './App.css';
-import './components/Navbar/index';
-import Navbar from './components/Navbar/index';
+import Rotas from 'Routes';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Rotas />
     </>
   );
 }
